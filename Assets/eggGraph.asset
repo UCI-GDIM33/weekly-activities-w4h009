@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: eggGraph
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":92.48642,"y":-2.422802},"zoom":0.8,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-205.0,"y":-198.0},"guid":"d3d8139c-f727-48b7-bba4-0c59dc4bc414","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"94e11cdf-b7a2-4c0d-8d9b-b466e2b3bbf3","$version":"A","$type":"Unity.VisualScripting.Update"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"EggEvent","$type":"System.String"}},"position":{"x":-201.0,"y":-80.0},"guid":"4137e26d-e05f-4897-82b9-23b483c75661","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"13"},{"type":"UnityEngine.GameObject","value":{"$content":0,"$type":"UnityEngine.Object"},"defaultValues":{},"position":{"x":-12.0,"y":118.0},"guid":"97e36331-4408-4113-afb9-304c20416caa","$version":"A","$type":"Unity.VisualScripting.Literal"},{"chainable":false,"parameterNames":["message"],"member":{"name":"Log","parameterTypes":["System.Object"],"targetType":"UnityEngine.Debug","targetTypeName":"UnityEngine.Debug","$version":"A"},"defaultValues":{},"position":{"x":58.0,"y":-111.0},"guid":"7ef74b4b-4bc9-46cb-be6d-a21c8efd1f13","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"17"},{"type":"System.String","value":{"$content":"wow
+      collision","$type":"System.String"},"defaultValues":{},"position":{"x":-52.0,"y":11.0},"guid":"4dec91b9-ae40-4f0b-9741-2e681a0a1a90","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"21"},{"argumentCount":0,"defaultValues":{"name":{"$content":"EggEvent","$type":"System.String"},"target":null},"position":{"x":-94.0,"y":244.0},"guid":"6dfc8adc-d598-4a70-85e7-3ef53154c6e8","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"3f60bcae-465d-4d78-b777-c4907d6a6320","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"output","destinationUnit":{"$ref":"17"},"destinationKey":"%message","guid":"789ecf31-632d-4736-aa96-62ac2d5220d4","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 7833463171696160981, guid: 567ef03070d364127ae4a23a8541f7c1, type: 3}
